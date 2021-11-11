@@ -2,7 +2,7 @@ FROM arm64v8/ubuntu:focal
 
 MAINTAINER James D. Mitchell <jdm3@st-andrews.ac.uk>
 
-ENV LIBSEMIGROUPS_VERSION 2.0.2
+ENV LIBSEMIGROUPS_VERSION 2.0.3
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -40,4 +40,3 @@ USER libsemigroups
 ENV HOME /home/libsemigroups
 
 WORKDIR home/libsemigroups
-
